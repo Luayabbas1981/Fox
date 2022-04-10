@@ -197,6 +197,7 @@
     transform: rotate( 
 -16deg
  );
+ 
 }
 .mostash {
     position: absolute;
@@ -334,12 +335,13 @@ z-index: 10;
     border-radius: 50%;
     top: 182px;
     right: 280px;
-    transform: rotate( 
-35deg
- );
- z-index: 6;
-   
- }
+    transform: rotate( 35deg );
+    z-index: 6;
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
  .tail7 {
     position: absolute;
     width: 160px;
@@ -348,12 +350,14 @@ z-index: 10;
     border-radius: 50%;
     top: 156px;
     right: 259px;
-    transform: rotate( 
-56deg
- );
+    transform: rotate( 56deg );
     z-index: 6;
-   
- }
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+    
+}
  .tail8 {
     position: absolute;
     width: 160px;
@@ -362,12 +366,13 @@ z-index: 10;
     border-radius: 50%;
     top: 176px;
     right: 303px;
-    transform: rotate( 
-34deg
- );
- z-index: 6;
-   
- }
+    transform: rotate( 34deg );
+    z-index: 6;
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
  .tail9 {
     position: absolute;
     width: 160px;
@@ -376,11 +381,13 @@ z-index: 10;
     border-radius: 50%;
     top: 204px;
     right: 271px;
-    transform: rotate( 
-7deg
- );
+    transform: rotate( 7deg );
     z-index: 8;
- }
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
  .tail10 {
     position: absolute;
     width: 160px;
@@ -389,11 +396,13 @@ z-index: 10;
     border-radius: 50%;
     top: 193px;
     right: 247px;
-    transform: rotate( 
-16deg
- );
+    transform: rotate( 16deg );
     z-index: 8;
- }
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
  .tail11 {
     position: absolute;
     width: 160px;
@@ -402,11 +411,13 @@ z-index: 10;
     border-radius: 50%;
     top: 172px;
     right: 231px;
-    transform: rotate( 
-14deg
- );
-    z-index: 8;
- }
+    transform: rotate( 14deg );
+    z-index: 0;
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
  footer>div {
     position: absolute;
     font-family: 'Dancing Script', cursive;
