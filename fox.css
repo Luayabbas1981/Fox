@@ -1,7 +1,7 @@
 .frame {
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     background-color: #e0e0e0;
     box-shadow: 10px 10px 10px #d7d7d7;
     border-radius: 20px 20px 20px 80px;
@@ -9,6 +9,13 @@
     top: 50%;
     transform: translate(-50%,-50%);
 }
+@media(max-width:500px){
+    .frame{
+        scale: .7;
+        translate: -15% -25%;
+    }
+}
+
 .face {
     position: relative;
     width: 210px;
@@ -93,7 +100,7 @@
     border: 10px solid rgb(208 62 20) ;
     border-bottom: none;
     border-right: none;
-    left: 137px;
+    left: 128px;
     top: 100px;
     transform: skew(35deg);
   
@@ -109,7 +116,7 @@
     border: 10px solid rgb(170,42,4,1) ;
     border-bottom: none;
     border-left: none;
-    right: 137px;
+    right: 87px;
     top: 100px;
     transform: skew(-35deg);
   
@@ -251,6 +258,9 @@ z-index: 10;
  )
  }
  .tail {
+   translate: 50px;
+ }
+ .tail0 {
     position: absolute;
     width: 160px;
     height: 116px;
@@ -337,10 +347,7 @@ z-index: 10;
     right: 280px;
     transform: rotate( 35deg );
     z-index: 6;
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    
 }
  .tail7 {
     position: absolute;
@@ -352,10 +359,7 @@ z-index: 10;
     right: 259px;
     transform: rotate( 56deg );
     z-index: 6;
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    
     
 }
  .tail8 {
@@ -368,10 +372,7 @@ z-index: 10;
     right: 303px;
     transform: rotate( 34deg );
     z-index: 6;
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    
 }
  .tail9 {
     position: absolute;
@@ -383,10 +384,7 @@ z-index: 10;
     right: 271px;
     transform: rotate( 7deg );
     z-index: 8;
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    
 }
  .tail10 {
     position: absolute;
@@ -398,10 +396,7 @@ z-index: 10;
     right: 247px;
     transform: rotate( 16deg );
     z-index: 8;
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    
 }
  .tail11 {
     position: absolute;
@@ -413,10 +408,7 @@ z-index: 10;
     right: 231px;
     transform: rotate( 14deg );
     z-index: 0;
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    
 }
  footer>div {
     position: absolute;
